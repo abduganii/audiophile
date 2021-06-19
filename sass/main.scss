@@ -1,0 +1,30 @@
+// abstracts
+@import './abstracts/varibles';
+@import './abstracts/utils';
+@import './abstracts/mixins';
+// base
+@import './base/base';
+@import './base/normalize';
+@import './base/typography';
+
+//components
+@import './components/btm';
+@import './components/cta';
+
+//layout 
+@import './layout/footer';
+@import './layout/header';
+@import './layout/forms';
+
+// pages
+@import './pages/about';
+@import './pages/home';
+@import './pages/contact';
+
+// themas
+@import './themes/dark';
+@import './themes/theme';
+
+// vendors
+@import './vendors/bootstrap';
+@import './vendors/Semantic';

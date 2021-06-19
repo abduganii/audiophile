@@ -1,0 +1,17 @@
+@mixin FlexCentur {
+    display: flex;
+    align-items: center;
+}
+
+@mixin baElements($w, $h) {
+    content: "";
+    width: $w;
+    height: $h;
+}
+
+@mixin baImages($w, $h, $url) {
+    @include baElements($w, $h);
+    background-image: url();
+    background-size: contain;
+    background-repeat: no-repeat;
+}
