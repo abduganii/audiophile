@@ -1,0 +1,522 @@
+.index11 {
+    background-color: #F2F2F2;
+    position: relative;
+}
+
+.main3 {
+    margin-top: 14.2rem;
+
+    @include respond(telefonlar-uchun) {
+        margin-top: 6.5rem;
+    }
+
+    .container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+
+        @include respond(tablet-uchun) {
+            flex-direction: column;
+            padding-left: 4rem;
+            padding-right: 4rem;
+        }
+
+        @include respond(telefonlar-uchun) {
+            padding-left: 2.4rem;
+            padding-right: 2.4rem;
+        }
+    }
+
+    &-left {
+        background-color: $color-ff;
+        padding: 5.5rem 4.8rem;
+
+        width: 73rem;
+
+        margin-bottom: 14.2rem;
+        position: relative;
+
+        @include respond(tablet-uchun) {
+            width: 69rem;
+            padding: 3rem;
+            margin-bottom: 3rem;
+        }
+
+        @include respond(telefonlar-uchun) {
+            padding: 2.4rem;
+            width: 100%;
+        }
+
+        &-h2 {
+            font-weight: bold;
+            font-size: 32px;
+            line-height: 36px;
+            letter-spacing: 1.14286px;
+            text-transform: uppercase;
+            margin-bottom: 4.1rem;
+        }
+
+        &-p {
+            font-weight: bold;
+            font-size: 13px;
+            line-height: 25px;
+            /* identical to box height, or 192% */
+
+            letter-spacing: 0.928571px;
+            text-transform: uppercase;
+            color: $color-4a;
+            margin-bottom: 1.6rem;
+
+        }
+
+        form {
+            .form-div {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                padding-bottom: 3.7rem;
+
+                @include respond(telefonlar-uchun) {
+                    flex-direction: column;
+                }
+            }
+
+            .form-div2 {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                padding-bottom: 3.7rem;
+
+                @include respond(telefonlar-uchun) {
+                    flex-direction: column;
+                }
+            }
+
+            .form-div3 {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 15.3rem;
+
+                @include respond(telefonlar-uchun) {
+                    flex-direction: column;
+                }
+            }
+
+            input {
+                background-color: #FFFFFF;
+                border: 1px solid #CFCFCF;
+                border-radius: 8px;
+                padding: 19px 0 18px 24px;
+                width: 30.9rem;
+                margin-bottom: 2.4rem;
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 19px;
+                letter-spacing: -0.25px;
+
+                color: #000000;
+
+                mix-blend-mode: normal;
+
+                @include respond(telefonlar-uchun) {
+                    width: 100%;
+                }
+
+                &:focus {
+                    border: 1px solid #D87D4A;
+                }
+
+                &:invalid {
+                    border: 2px solid #CD2C2C;
+                }
+
+                &::placeholder {
+                    font-weight: bold;
+                    font-size: 14px;
+                    line-height: 19px;
+                    letter-spacing: -0.25px;
+
+                    color: #000000;
+
+                    mix-blend-mode: normal;
+                    opacity: 0.4;
+                }
+
+            }
+
+
+
+            .address {
+                width: 100%;
+            }
+
+            label {
+                display: inline-block;
+                background-color: #FFFFFF;
+                border: 1px solid #CFCFCF;
+                border-radius: 8px;
+                padding: 19px 0 18px 24px;
+                width: 30.9rem;
+                margin-bottom: 16px;
+                @include FlexCentur;
+
+                @include respond(telefonlar-uchun) {
+                    width: 100%;
+                }
+
+                .span1 {
+                    display: inline-block;
+                    width: 2rem;
+                    height: 2rem;
+                    border-radius: 50%;
+                    border: 1px solid #CFCFCF;
+                    position: relative;
+                    margin-right: 1.6rem;
+
+                    &::before {
+                        @include baElements(1rem, 1rem);
+                        background-color: $color-4a;
+                        border-radius: 50%;
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        display: none;
+
+                    }
+                }
+
+                .span2 {
+                    display: flex;
+                    justify-content: space-between;
+                    position: absolute;
+                    bottom: 4.8rem;
+                    left: 4.8rem;
+                    display: none;
+
+
+
+                    .div33333 {
+                        display: flex;
+                        justify-content: space-between;
+                    }
+
+                    &-p {
+                        font-weight: 500;
+                        font-size: 15px;
+                        line-height: 25px;
+
+                        color: #000000;
+                        max-width: 54.4rem;
+                        mix-blend-mode: normal;
+                        opacity: 0.5;
+                        margin-left: 3.2rem;
+
+                    }
+
+                }
+
+            }
+
+            input[type="radio"] {
+                display: none;
+            }
+
+            input[type="radio"]:checked+span::before {
+                display: inline-block;
+            }
+
+            input[type="radio"]:checked~.span2 {
+                display: flex;
+            }
+        }
+
+        &-input {
+            &-p {
+                font-weight: bold;
+                font-size: 12px;
+                line-height: 16px;
+                letter-spacing: -0.214286px;
+                margin-bottom: 9px;
+            }
+        }
+    }
+
+    &-right {
+        background-color: #FFFFFF;
+        padding: 3.2rem;
+        width: 35rem;
+
+        @include respond(tablet-uchun) {
+            width: 100%;
+            margin-bottom: 11.6rem
+        }
+
+        &-h3 {
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 25px;
+            margin-bottom: 3.1rem;
+            letter-spacing: 1.28571px;
+            text-transform: uppercase;
+
+
+
+        }
+
+        &-card {
+            @include FlexCentur;
+
+            &::before {
+                @include baImages(3.6rem, 4rem, "../img/image-removebg-preview(47) (1).png");
+                width: 6.4rem;
+                height: 6.4rem;
+                background-color: #F1F1F1;
+                border-radius: 8px;
+                margin-right: 1.6rem;
+            }
+        }
+
+        &-card2 {
+            @include FlexCentur;
+
+            &::before {
+                @include baImages(3.6rem, 4rem, "../img/image-removebg-preview(48) (3).png");
+                width: 6.4rem;
+                height: 6.4rem;
+                background-color: #F1F1F1;
+                border-radius: 8px;
+                margin-right: 1.6rem;
+            }
+        }
+
+        &-card3 {
+            @include FlexCentur;
+
+            &::before {
+                @include baImages(3.6rem, 4rem, "../img/image-removebg-preview(42) (3).png");
+                width: 6.4rem;
+                height: 6.4rem;
+                background-color: #F1F1F1;
+                border-radius: 8px;
+                margin-right: 1.6rem;
+            }
+        }
+
+        &-div {
+            @include FlexCentur;
+            margin-bottom: 2.4rem;
+            justify-content: space-between;
+        }
+
+        &-div1 {
+            @include FlexCentur;
+            margin-bottom: 0.8rem;
+            justify-content: space-between;
+        }
+
+        .div33 {
+            margin-top: 18px;
+        }
+
+        &-p {
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 25px;
+        }
+
+        &-p1 {
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 25px;
+            mix-blend-mode: normal;
+            opacity: 0.5;
+        }
+
+        &-x {
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 25px;
+            // text-align: right;
+            color: #000000;
+            mix-blend-mode: normal;
+            opacity: 0.5;
+        }
+
+        &-p2 {
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 25px;
+            mix-blend-mode: normal;
+            opacity: 0.5;
+        }
+
+        &-p3 {
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 25px;
+            text-align: right;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.order {
+    background-color: #FFFFFF;
+    width: 54rem;
+    padding: 4.8rem;
+    // display: none;
+    position: fixed;
+    top: 22.2rem;
+    left: 50%;
+    transform: translateX(-50%);
+
+    @include respond(telefonlar-uchun) {
+        width: 32.7rem;
+        border-radius: 8px;
+
+    }
+
+    &--h2 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 36px;
+        max-width: 28.4rem;
+        letter-spacing: 1.14286px;
+        text-transform: uppercase;
+        margin-top: 3.3rem;
+        margin-bottom: 2.4rem;
+
+    }
+
+    &--p {
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 25px;
+        color: #000000;
+        max-width: 100%;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+        margin-bottom: 3.3rem;
+    }
+}
+
+.grand {
+    display: flex;
+
+    @include respond(telefonlar-uchun) {
+        flex-direction: column;
+    }
+
+    background: #F1F1F1;
+    border-radius: 8px;
+
+
+
+    &-left {
+        padding: 2.4rem;
+    }
+
+    &-p {
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: -0.214286px;
+
+        color: #000000;
+        text-align: center;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+    }
+
+    &-hr {
+        display: inline-block;
+        width: 19.8rem;
+        height: 1px;
+        border: none;
+        background: #000000;
+        mix-blend-mode: normal;
+        opacity: 0.08;
+        margin-bottom: 1.2rem;
+        margin-top: 1.2rem;
+    }
+
+    &-right {
+        padding-left: 3.2rem;
+        padding-top: 4.1rem;
+        background-color: black;
+        color: white;
+        width: 100%;
+        border-bottom-right-radius: 8px;
+        border-top-right-radius: 8px;
+
+        @include respond(telefonlar-uchun) {
+            border-top-right-radius: 0px;
+            border-bottom-left-radius: 8px;
+            padding-left: 2.4rem;
+            padding-top: 1.5rem;
+            padding-bottom: 1.9rem;
+        }
+    }
+
+    &--h3 {
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 25px;
+
+        color: #FFFFFF;
+
+        mix-blend-mode: normal;
+        opacity: 0.5;
+        margin-bottom: 8px;
+    }
+
+    &--d {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 25px;
+
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+    }
+
+}
+
+.div444 {
+    margin-bottom: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    @include respond(telefonlar-uchun) {
+        justify-content: flex-start;
+    }
+
+    .p12 {
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 25px;
+        /* identical to box height, or 167% */
+
+        text-align: right;
+
+        color: rgba(0, 0, 0, 0.5);
+
+        mix-blend-mode: normal;
+
+        @include respond(telefonlar-uchun) {
+            margin-left: auto;
+        }
+
+    }
+}
+
+.btn-c:checked+.shodow {
+    display: inline-block;
+}
+
+.btn-c {
+    display: none;
+}

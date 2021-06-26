@@ -1,0 +1,123 @@
+header {
+    background-color: #0E0E0E;
+
+    .container {
+        @include FlexCentur;
+        justify-content: space-between;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        padding-top: 3.2rem;
+        padding-bottom: 3.6rem;
+
+        @include respond(tablet-uchun) {
+            padding-left: 4rem;
+            padding-right: 4rem;
+            justify-content: flex-start;
+        }
+
+        @include respond(telefonlar-uchun) {
+            padding-left: 2.4rem;
+            padding-right: 2.4rem;
+            justify-content: space-between;
+        }
+
+        .backet {
+            margin-left: auto;
+
+            @include respond(telefonlar-uchun) {
+                margin-left: 0;
+                padding-left: 5rem;
+            }
+        }
+    }
+
+
+
+
+}
+
+.header--bottom {
+    background-color: black;
+    color: $color-ff;
+
+    &-h2 {
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 44px;
+        padding: 9.8rem 0;
+        text-align: center;
+        letter-spacing: 1.42857px;
+        text-transform: uppercase;
+
+        @include respond(tablet-uchun) {
+            padding-top: 10rem;
+        }
+    }
+
+
+}
+
+.hanburger {
+    display: none;
+    width: 1.6rem;
+    height: 3px;
+    background-color: #FFFFFF;
+    position: relative;
+    z-index: 15;
+
+    @include respond(telefonlar-uchun) {
+        margin-left: 2.4rem;
+    }
+
+    @include respond(tablet-uchun) {
+        display: inline-block;
+        margin-right: 5.8rem;
+    }
+
+    &::before {
+        @include baElements(1.6rem, 3px);
+        background-color: $color-ff;
+        position: absolute;
+        top: -4px;
+        left: 0;
+
+    }
+
+    &::after {
+        @include baElements(1.6rem, 3px);
+        background-color: $color-ff;
+        position: absolute;
+        top: 4px;
+        left: 0;
+
+
+    }
+
+    &-check {
+        display: none;
+
+        &:checked+.shodow {
+            display: inline-block;
+        }
+
+        &:checked+.shodow .dropdown2 {
+            display: inline-block;
+        }
+    }
+}
+
+.dropdown2 {
+    width: 100%;
+    display: none;
+
+    height: 34rem;
+    background-color: #FFFFFF;
+    padding-top: 7.6rem;
+    color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    @include respond(telefonlar-uchun) {
+        height: 82rem;
+    }
+}

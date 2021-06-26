@@ -4,6 +4,7 @@
 }
 
 @mixin baElements($w, $h) {
+    display: inline-block;
     content: "";
     width: $w;
     height: $h;
@@ -11,7 +12,21 @@
 
 @mixin baImages($w, $h, $url) {
     @include baElements($w, $h);
-    background-image: url();
+    background-image: url($url);
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+@mixin respond ($breakpoint) {
+    @if $breakpoint==telefonlar-uchun {
+        @media only screen and (max-width:600px) {
+            @content;
+        }
+    }
+
+    @if $breakpoint==tablet-uchun {
+        @media only screen and (max-width:900px) {
+            @content;
+        }
+    }
 }

@@ -1,0 +1,904 @@
+.main {
+    &-7 {
+        .container {
+            @include respond(tablet-uchun) {
+                padding-left: 4rem;
+                padding-right: 4rem;
+            }
+
+            @include respond(telefonlar-uchun) {
+                padding-left: 2.4rem;
+                padding-right: 2.4rem
+            }
+        }
+
+
+
+        &-right {
+            @include FlexCentur;
+            justify-content: space-between;
+            margin-bottom: 16rem;
+
+            @include respond(tablet-uchun) {
+                flex-direction: column;
+                text-align: center;
+                margin-bottom: 12rem;
+            }
+
+            &::before {
+                @include baImages(54rem, 56rem, '../img/Group\ 3.png');
+
+                @include respond(tablet-uchun) {
+                    margin-bottom: 5.2rem;
+                    background-image: url('../img/image-removebg-preview\(47\).png');
+                    background-size: 22rem 24.3rem;
+                    width: 100%;
+                    height: 35.2rem;
+                    background-position: center;
+                    background-color: #F1F1F1;
+                }
+            }
+
+            &-h2 {
+                @include respond(tablet-uchun) {
+                    margin: 0 auto;
+                }
+            }
+
+            &-text {
+                @include respond(tablet-uchun) {
+                    max-width: 57.2rem;
+                    text-align: center;
+                    margin-top: 3.2rem;
+                    margin-bottom: 3.2rem;
+                }
+            }
+        }
+    }
+
+    &-8 {
+        .container {
+            @include respond(tablet-uchun) {
+                padding-left: 4rem;
+                padding-right: 4rem;
+            }
+
+            @include respond(telefonlar-uchun) {
+                padding-left: 2.4rem;
+                padding-right: 2.4rem
+            }
+        }
+
+        &-right {
+            @include FlexCentur;
+            justify-content: space-between;
+            margin-bottom: 16rem;
+
+            @include respond(tablet-uchun) {
+                flex-direction: column;
+                text-align: center;
+                margin-bottom: 12rem;
+            }
+
+            &::after {
+                @include baImages(54rem, 56rem, '../img/Group\ 3 (1).png');
+
+                @include respond(tablet-uchun) {
+                    display: none;
+                }
+            }
+
+            &::before {
+                @include baImages(54rem, 56rem, '../img/Group\ 3.png');
+                display: none;
+
+                @include respond(tablet-uchun) {
+                    margin-bottom: 5.2rem;
+                    background-image: url('../img/image-removebg-preview\(41\) (2).png');
+                    background-size: 22rem 24.3rem;
+                    width: 100%;
+                    height: 35.2rem;
+                    background-position: center;
+                    background-color: #F1F1F1;
+                    display: inline-block;
+                }
+            }
+
+            @include respond(tablet-uchun) {
+                flex-direction: column;
+                text-align: center;
+                margin-bottom: 12rem;
+            }
+        }
+    }
+
+    &-9 {
+        .container {
+            @include respond(tablet-uchun) {
+                padding-left: 4rem;
+                padding-right: 4rem;
+            }
+
+            @include respond(telefonlar-uchun) {
+                padding-left: 2.4rem;
+                padding-right: 2.4rem
+            }
+        }
+
+        &-right {
+            @include FlexCentur;
+            justify-content: space-between;
+            margin-bottom: 16rem;
+
+            @include respond(tablet-uchun) {
+                flex-direction: column;
+                text-align: center;
+                margin-bottom: 17rem;
+            }
+
+            &::before {
+                @include baImages(54rem, 56rem, '../img/Group\ 3 (2).png');
+
+                @include respond(tablet-uchun) {
+                    margin-bottom: 5.2rem;
+                    background-image: url('../img/image-removebg-preview\(48\).png');
+                    background-size: 22rem 24.3rem;
+                    width: 100%;
+                    height: 35.2rem;
+                    background-position: center;
+                    background-color: #F1F1F1;
+                }
+            }
+        }
+    }
+
+    &-10 {
+        .container {
+            @include respond(tablet-uchun) {
+                padding-left: 4rem;
+                padding-right: 4rem;
+            }
+
+            @include respond(telefonlar-uchun) {
+                padding-left: 2.4rem;
+                padding-right: 2.4rem
+            }
+        }
+
+        &-right {
+            @include FlexCentur;
+            justify-content: space-between;
+            margin-bottom: 16rem;
+
+            @include respond(tablet-uchun) {
+                flex-direction: column;
+                text-align: center;
+                margin-bottom: 12rem;
+            }
+
+            &::before {
+                @include baImages(54rem, 56rem, '../img/Group\ 3 (3).png');
+
+                @include respond(tablet-uchun) {
+                    margin-bottom: 5.2rem;
+                    background-image: url('../img/image-removebg-preview\(38\) (2).png');
+                    background-size: 22rem 24.3rem;
+                    width: 100%;
+                    height: 35.2rem;
+                    background-position: center;
+                    background-color: #F1F1F1;
+                }
+            }
+        }
+    }
+
+    &-11 {
+        .container {
+            @include respond(tablet-uchun) {
+                padding-left: 4rem;
+                padding-right: 4rem;
+            }
+
+            @include respond(telefonlar-uchun) {
+                padding-left: 2.4rem;
+                padding-right: 2.4rem
+            }
+        }
+
+        &-right {
+            @include FlexCentur;
+            justify-content: space-between;
+            margin-bottom: 24rem;
+
+            @include respond(tablet-uchun) {
+                flex-direction: column;
+                text-align: center;
+                margin-bottom: 24rem;
+            }
+
+            &::after {
+                @include baImages(54rem, 56rem, '../img/Group\ 3 (4).png');
+
+
+                @include respond(tablet-uchun) {
+                    display: none;
+                }
+
+            }
+
+            &::before {
+                @include baImages(54rem, 56rem, '../img/Group\ 3 (3).png');
+                display: none;
+
+                @include respond(tablet-uchun) {
+                    margin-bottom: 5.2rem;
+                    background-image: url('../img/image-removebg-preview\(49\).png');
+                    background-size: 16.9rem 24.3rem;
+                    width: 100%;
+                    height: 35.2rem;
+                    background-position: center;
+                    background-color: #F1F1F1;
+                    display: inline-block;
+                }
+            }
+        }
+    }
+
+    &-12 {
+        .container {
+            @include respond(tablet-uchun) {
+                padding-left: 4rem;
+                padding-right: 4rem;
+            }
+
+            @include respond(telefonlar-uchun) {
+                padding-left: 2.4rem;
+                padding-right: 2.4rem
+            }
+        }
+
+        &-right {
+            @include FlexCentur;
+            justify-content: space-between;
+            margin-bottom: 16rem;
+
+            @include respond(tablet-uchun) {
+                flex-direction: column;
+                text-align: center;
+                margin-bottom: 12rem;
+            }
+
+            &::before {
+                @include baImages(54rem, 56rem, '../img/Group\ 3 (5).png');
+
+                @include respond(tablet-uchun) {
+                    margin-bottom: 5.2rem;
+                    background-image: url('../img/image-removebg-preview\(42\) (1).png');
+                    background-size: 28.5rem 25.2rem;
+                    width: 100%;
+                    height: 35.2rem;
+                    background-position: center;
+                    background-color: #F1F1F1;
+                }
+            }
+        }
+    }
+
+}
+
+.new {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    margin-bottom: 1.6rem;
+    color: #D87D4A;
+
+}
+
+.back {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    margin-bottom: 5.6rem;
+
+    @include respond(tablet-uchun) {
+        margin-left: 4rem;
+    }
+
+    @include respond(telefonlar-uchun) {
+        margin-left: 0;
+        margin-bottom: 2.4rem;
+    }
+}
+
+.main2 {
+    padding-top: 7.9rem;
+    padding-bottom: 20rem;
+
+    @include respond(tablet-uchun) {
+        padding-top: 3.3rem;
+        padding-bottom: 12rem;
+    }
+
+    .dollor {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: 1.28571px;
+        text-transform: uppercase;
+        margin-bottom: 4.7rem;
+    }
+
+    &-1 {
+        .container {
+            @include respond(tablet-uchun) {
+                padding-left: 4rem;
+                padding-right: 4rem;
+            }
+
+            @include respond(telefonlar-uchun) {
+                padding-left: 2.4rem;
+                padding-right: 2.4rem
+            }
+        }
+
+        &-right {
+            @include FlexCentur;
+            justify-content: space-between;
+            margin-bottom: 16rem;
+
+            @include respond(tablet-uchun) {
+                margin-bottom: 0;
+            }
+
+            @include respond(telefonlar-uchun) {
+                flex-direction: column;
+            }
+
+            &::before {
+                @include baImages(54rem, 56rem, '../img/Group\ 3.png');
+
+                @include respond(tablet-uchun) {
+                    background-image: url('../img/image-removebg-preview\(47\).png');
+                    background-size: 18.1rem 20.1rem;
+                    width: 28.1rem;
+                    height: 48rem;
+                    background-position: center;
+                    background-color: #F1F1F1;
+                }
+
+                @include respond(telefonlar-uchun) {
+                    width: 100%;
+                    height: 32.7rem;
+                    margin-bottom: 3.2rem;
+                }
+            }
+
+            &-div {
+                @include respond(tablet-uchun) {
+                    max-width: 34rem;
+                }
+            }
+
+            &-h2 {
+                font-weight: bold;
+                font-size: 28px;
+                line-height: 32px;
+            }
+        }
+    }
+
+    &-2 {
+        .container {
+            display: flex;
+            align-items: flex-start;
+
+            @include respond(tablet-uchun) {
+                flex-direction: column;
+                padding-left: 4rem;
+                padding-right: 4rem;
+            }
+
+            @include respond(telefonlar-uchun) {
+                padding-left: 2.4rem;
+                padding-right: 2.4rem;
+            }
+
+        }
+
+        margin-bottom: 16rem;
+
+        &-left {
+            margin-right: 12.4rem;
+
+            @include respond(tablet-uchun) {
+                margin-right: 0;
+                // margin-bottom: 12rem;
+                margin-top: 12rem;
+            }
+        }
+
+        &-h3 {
+            font-weight: bold;
+            font-size: 32px;
+            line-height: 36px;
+            margin-bottom: 3.2rem;
+            text-transform: uppercase;
+
+            @include respond(tablet-uchun) {
+                font-weight: bold;
+                font-size: 32px;
+                line-height: 36px;
+                width: 34rem;
+            }
+
+        }
+
+        &-p {
+            max-width: 63.5rem;
+            margin-bottom: 8px;
+
+            span {
+                color: $color-4a;
+                margin-right: 2.4rem;
+            }
+        }
+
+        &-right {
+            @include respond(tablet-uchun) {
+                display: flex;
+                margin-top: 12rem;
+            }
+
+            @include respond(telefonlar-uchun) {
+                flex-direction: column;
+            }
+        }
+    }
+
+    &-3 {
+        .container {
+            display: flex;
+            justify-content: space-between;
+
+            @include respond(tablet-uchun) {
+                padding-left: 4rem;
+                padding-right: 4rem;
+            }
+
+            @include respond(telefonlar-uchun) {
+                padding-left: 2.4rem;
+                padding-right: 2.4rem;
+                flex-direction: column;
+            }
+        }
+    }
+
+    &-4 {
+        margin-top: 13rem;
+        margin-bottom: 24rem;
+
+        @include respond(tablet-uchun) {
+            margin-top: 11.5rem;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+
+            @include respond(tablet-uchun) {
+                padding-left: 4rem;
+                padding-right: 4rem;
+            }
+
+            @include respond(telefonlar-uchun) {
+                flex-direction: column;
+                padding-left: 2.4rem;
+                padding-right: 2.4rem;
+            }
+        }
+
+        &-box:nth-child(1) {
+            text-align: center;
+
+            @include respond(telefonlar-uchun) {
+                margin-bottom: 5.6rem;
+            }
+
+            &::before {
+                @include baImages(35rem, 31.8rem, '../img/Group\ 12.png');
+
+                @include respond(tablet-uchun) {
+                    height: 31.8rem;
+                    width: 22.3rem;
+                    background-image: url('../img/image-removebg-preview\(41\) (3).png');
+                    background-size: 14.8rem 19.3rem;
+                    background-color: #F1F1F1;
+                    background-position: center;
+                }
+
+                @include respond(telefonlar-uchun) {
+                    background-size: 7.3rem 9.5rem;
+                    width: 100%;
+                    height: 12rem;
+                }
+            }
+        }
+
+        .box1 {
+            text-align: center;
+
+            @include respond(telefonlar-uchun) {
+                margin-bottom: 5.6rem;
+            }
+
+            &::before {
+                @include baImages(35rem, 31.8rem, '../img/Group\ 12 (4).png');
+
+                @include respond(tablet-uchun) {
+                    height: 31.8rem;
+                    width: 22.3rem;
+                    background-image: url('../img/image-removebg-preview\(48\) (1).png');
+                    background-size: 19rem 19.9rem;
+                    background-color: #F1F1F1;
+                    background-position: center;
+                }
+
+                @include respond(telefonlar-uchun) {
+                    background-size: 7.3rem 9.5rem;
+                    width: 100%;
+                    height: 12rem;
+                }
+            }
+        }
+
+        .box2 {
+            text-align: center;
+
+            &::before {
+                @include baImages(35rem, 31.8rem, '../img/Group\ 12 (3).png');
+
+                @include respond(tablet-uchun) {
+                    height: 31.8rem;
+                    max-width: 22.3rem;
+                    background-image: url('../img/image-removebg-preview\(38\) (3).png');
+                    background-size: 14.3rem 17.2rem;
+                    background-color: #F1F1F1;
+                    background-position: center;
+                }
+
+                @include respond(telefonlar-uchun) {
+                    background-size: 7.3rem 9.5rem;
+                    max-width: 100%;
+                    height: 12rem;
+                }
+            }
+        }
+
+        &-h2 {
+            text-align: center;
+            font-weight: bold;
+            font-size: 32px;
+            line-height: 36px;
+            letter-spacing: 1.14286px;
+            text-transform: uppercase;
+            margin-bottom: 6.4rem;
+        }
+
+        &-h3 {
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 33px;
+            text-align: center;
+            letter-spacing: 1.71429px;
+            text-transform: uppercase;
+            margin-bottom: 3.2rem;
+            margin-top: 4rem;
+        }
+    }
+
+    &-5 {
+        .container {
+            @include respond(tablet-uchun) {
+                padding-left: 4rem;
+                padding-right: 4rem;
+            }
+
+            @include respond(telefonlar-uchun) {
+                padding-left: 2.4rem;
+                padding-right: 2.4rem
+            }
+        }
+
+        &-right {
+            @include FlexCentur;
+            justify-content: space-between;
+            margin-bottom: 16rem;
+
+            @include respond(tablet-uchun) {
+                margin-bottom: 0;
+            }
+
+            @include respond(telefonlar-uchun) {
+                flex-direction: column;
+            }
+
+            &::before {
+                @include baImages(54rem, 56rem, '../img/Group\ 3 (6).png');
+
+                @include respond(tablet-uchun) {
+                    background-image: url('../img/image-removebg-preview\(41\) (4).png');
+                    background-size: 18.1rem 20.1rem;
+                    width: 28.1rem;
+                    height: 48rem;
+                    background-position: center;
+                    background-color: #F1F1F1;
+                }
+
+                @include respond(telefonlar-uchun) {
+                    width: 100%;
+                    height: 327px;
+                    margin-bottom: 4rem;
+                }
+            }
+        }
+    }
+
+    &-6 {
+        .container {
+            @include respond(tablet-uchun) {
+                padding-left: 4rem;
+                padding-right: 4rem;
+            }
+
+            @include respond(telefonlar-uchun) {
+                padding-left: 2.4rem;
+                padding-right: 2.4rem
+            }
+        }
+
+        &-right {
+            @include FlexCentur;
+            justify-content: space-between;
+            margin-bottom: 16rem;
+
+            @include respond(tablet-uchun) {
+                margin-bottom: 0;
+            }
+
+            @include respond(telefonlar-uchun) {
+                flex-direction: column;
+            }
+
+            &::before {
+                @include baImages(54rem, 56rem, '../img/Group\ 3 (7).png');
+
+                @include respond(tablet-uchun) {
+                    background-image: url('../img/image-removebg-preview\(38\) (4).png');
+                    background-size: 16.7rem 20.1rem;
+                    width: 28.1rem;
+                    height: 48rem;
+                    background-position: center;
+                    background-color: #F1F1F1;
+                }
+
+                @include respond(telefonlar-uchun) {
+                    width: 100%;
+                    height: 32.7rem;
+                    margin-bottom: 4rem;
+                }
+            }
+        }
+    }
+
+    &-7 {
+        .container {
+            @include respond(tablet-uchun) {
+                padding-left: 4rem;
+                padding-right: 4rem;
+            }
+
+            @include respond(telefonlar-uchun) {
+                padding-left: 2.4rem;
+                padding-right: 2.4rem
+            }
+        }
+
+        &-right {
+            @include FlexCentur;
+            justify-content: space-between;
+            margin-bottom: 16rem;
+
+            @include respond(tablet-uchun) {
+                margin-bottom: 0;
+            }
+
+            @include respond(telefonlar-uchun) {
+                flex-direction: column;
+            }
+
+            &::before {
+                @include baImages(54rem, 56rem, '../img/Group\ 3 (8).png');
+
+                @include respond(tablet-uchun) {
+                    background-image: url('../img/image-removebg-preview\(49\) (2).png');
+                    background-size: 14rem 20.2rem;
+                    width: 28.1rem;
+                    height: 48rem;
+                    background-position: center;
+                    background-color: #F1F1F1;
+                }
+
+                @include respond(telefonlar-uchun) {
+                    width: 100%;
+                    height: 32.7rem;
+                    margin-bottom: 4rem;
+                }
+            }
+        }
+    }
+
+    &-8 {
+        .container {
+            @include respond(tablet-uchun) {
+                padding-left: 4rem;
+                padding-right: 4rem;
+            }
+
+            @include respond(telefonlar-uchun) {
+                padding-left: 2.4rem;
+                padding-right: 2.4rem
+            }
+        }
+
+        &-right {
+            @include FlexCentur;
+            justify-content: space-between;
+            margin-bottom: 16rem;
+
+            @include respond(tablet-uchun) {
+                margin-bottom: 0;
+            }
+
+            @include respond(telefonlar-uchun) {
+                flex-direction: column;
+            }
+
+
+
+            &::before {
+                @include baImages(54rem, 56rem, '../img/Group\ 3 (9).png');
+
+                @include respond(tablet-uchun) {
+                    background-image: url('../img/image-removebg-preview\(42\) (2).png');
+                    background-size: 20rem 20.2rem;
+                    width: 28.1rem;
+                    height: 48rem;
+                    background-position: center;
+                    background-color: #F1F1F1;
+                }
+
+                @include respond(telefonlar-uchun) {
+                    width: 100%;
+                    height: 32.7rem;
+                    margin-bottom: 4rem;
+                }
+            }
+        }
+    }
+
+    &-9 {
+        .container {
+            @include respond(tablet-uchun) {
+                padding-left: 4rem;
+                padding-right: 4rem;
+            }
+
+            @include respond(telefonlar-uchun) {
+                padding-left: 2.4rem;
+                padding-right: 2.4rem
+            }
+        }
+
+        &-right {
+            @include FlexCentur;
+            justify-content: space-between;
+            margin-bottom: 24rem;
+
+            @include respond(tablet-uchun) {
+                margin-bottom: 0;
+            }
+
+            @include respond(telefonlar-uchun) {
+                flex-direction: column;
+            }
+
+            &::before {
+                @include baImages(54rem, 56rem, '../img/Group\ 3 (10).png');
+
+                @include respond(tablet-uchun) {
+                    background-image: url('../img/image-removebg-preview\(48\) (2).png');
+                    background-size: 18.1rem 20.1rem;
+                    width: 28.1rem;
+                    height: 48rem;
+                    background-position: center;
+                    background-color: #F1F1F1;
+                }
+
+                @include respond(telefonlar-uchun) {
+                    width: 100%;
+                    height: 32.7rem;
+                    margin-bottom: 4rem;
+                }
+            }
+        }
+    }
+}
+
+.imgs {
+    border-radius: 5px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+
+    @include respond(tablet-uchun) {
+        display: none;
+    }
+
+}
+
+.img1 {
+    display: none;
+
+    @include respond(tablet-uchun) {
+        display: inline-block;
+        border-radius: 5px;
+    }
+
+    @include respond(telefonlar-uchun) {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    &__b {
+        margin-bottom: 2rem;
+    }
+}
+
+
+.plus {
+    width: 12rem;
+    background: #F1F1F1;
+    padding: 1.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 18px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-right: 1.6rem;
+
+
+
+
+    &__1 {
+        width: 9.6rem;
+        padding: 7px 0;
+        margin-right: 0;
+        margin-bottom: 7rem;
+    }
+}
+
+.btn-m {
+    display: flex;
+}

@@ -1,0 +1,62 @@
+.btn {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 1.5rem 3rem;
+    background-color: $color-4a;
+    color: $color-ff;
+
+    &:hover {
+        opacity: .5;
+
+    }
+}
+
+.btn-d {
+    text-align: center;
+    width: 100%;
+    margin-top: 2.4rem;
+
+}
+
+.btn--ff {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: $color-00;
+    background-color: $color-ff;
+    border: 1px solid #000000;
+    padding: 1.5rem 3rem;
+
+    &:hover {
+        color: $color-ff;
+        background-color: $color-00;
+    }
+}
+
+.btn-stop {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.5);
+    mix-blend-mode: normal;
+
+
+    &::after {
+        @include baImages(5px, 1rem, '../img/Path\ 2.png');
+        margin-left: 1.3rem
+    }
+
+    &:hover {
+        color: $color-4a;
+    }
+}

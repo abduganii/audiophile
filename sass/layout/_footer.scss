@@ -1,0 +1,100 @@
+.footer {
+    background-color: $color-00;
+    color: $color-ff;
+
+    .container {
+        padding-top: 7.5rem;
+        padding-bottom: 4.8rem;
+        position: relative;
+
+        @include respond(tablet-uchun) {
+            padding-left: 4rem;
+            padding-right: 4rem;
+            padding-top: 6rem;
+            padding-bottom: 4.6rem;
+        }
+
+        @include respond(telefonlar-uchun) {
+            padding-left: 2.4rem;
+            padding-right: 2.4rem
+        }
+    }
+
+    &-nav {
+        @include FlexCentur;
+        justify-content: space-between;
+        margin-bottom: 3.6rem;
+
+        @include respond(tablet-uchun) {
+            flex-direction: column;
+            align-items: flex-start;
+            margin-bottom: 0;
+        }
+
+        @include respond(telefonlar-uchun) {
+            align-items: center;
+
+        }
+    }
+
+    &-hr {
+        display: inline-block;
+        width: 10rem;
+        height: 4px;
+        border: none;
+        background-color: $color-4a;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    &-p {
+        max-width: 54rem;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+        margin-top: 3.6rem;
+        margin-bottom: 5.6rem;
+
+        @include respond(tablet-uchun) {
+            width: 100%;
+        }
+
+        @include respond(telefonlar-uchun) {
+            max-width: 100%;
+            text-align: center;
+        }
+    }
+
+    &-p2 {
+        mix-blend-mode: normal;
+        opacity: 0.5;
+        margin-bottom: 4.8rem;
+
+        @include respond(telefonlar-uchun) {
+            text-align: center;
+        }
+    }
+
+    &-bottom {
+        @include FlexCentur;
+        justify-content: space-between;
+
+        @include respond(tablet-uchun) {
+            align-items: flex-end;
+        }
+
+        @include respond(telefonlar-uchun) {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        svg {
+            color: $color-ff;
+            margin-left: 1.6em;
+
+            &:hover {
+                color: $color-4a;
+            }
+        }
+    }
+}

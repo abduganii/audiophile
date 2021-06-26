@@ -1,3 +1,4 @@
+@import './fonts';
 // abstracts
 @import './abstracts/varibles';
 @import './abstracts/utils';
@@ -10,6 +11,7 @@
 //components
 @import './components/btm';
 @import './components/cta';
+@import './components/list';
 
 //layout 
 @import './layout/footer';
