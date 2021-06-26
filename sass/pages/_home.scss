@@ -360,14 +360,14 @@
         .container {
             width: 114rem;
             height: 32rem;
-            background-image: url('../../img/Bitmap.png');
+            background-image: url('../img/Bitmap.png');
             background-size: cover;
             padding-top: 10rem;
             padding-left: 9.5rem;
 
             @include respond(tablet-uchun) {
                 max-width: 76.8rem;
-                background-image: url('../../img/Bitmap\ \(22\).png');
+                background-image: url('../img/Bitmap\ \(22\).png');
                 background-repeat: no-repeat;
                 background-size: contain;
                 margin: 0 auto;
@@ -377,7 +377,7 @@
             }
 
             @include respond(telefonlar-uchun) {
-                background-image: url('../../img/Bitmap\ \(45\).png');
+                background-image: url('../img/Bitmap\ \(45\).png');
                 padding-left: 2.4rem;
                 padding-right: 2.4rem;
                 width: 100%;
